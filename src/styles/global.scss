@@ -21,6 +21,12 @@
     --purple-800: #6F48C9;
 }
 
+@media (max-width: 1366px) {
+    html {
+      font-size: 80%;
+    }
+}
+
 @media (max-width: 1080px) {
     html {
         font-size: 93.75%; //15
@@ -29,15 +35,10 @@
 
 @media (max-width: 720px) {
     html {
-        font-size: 81.5%;//14
+        font-size: 85.5%;//14
     }
 }
 
-// @media (max-width: 500px) {
-//     html {
-//         font-size: 50.5%;
-//     }
-// }
 
 body {
     background-color: var(--gray-50);
